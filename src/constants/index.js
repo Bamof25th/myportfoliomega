@@ -23,6 +23,7 @@ import {
   weatherapp,
   chat,
   threejs,
+  blog
 } from "../assets/";
 
 export const navLinks = [
@@ -259,7 +260,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Socket-Io",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
@@ -267,11 +268,11 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Zustand",
-        color: "yellow-text-gradient",
+        name: "Firebase",
+        color: "text-indigo-500",
       },
     ],
-    image: chat,
+    image: blog,
     source_code_link: "https://github.com/",
   },
 ];

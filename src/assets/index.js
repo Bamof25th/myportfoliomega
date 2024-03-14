@@ -29,6 +29,8 @@ import sail from "./company/sail.jpg";
 import filmpire from "./filmpire.png";
 import chat from "./chat.png";
 import weatherapp from "./weatherapp.png";
+import blog from "./blog.gif";
+
 
 export {
   logo,
@@ -59,4 +61,5 @@ export {
   filmpire,
   weatherapp,
   chat,
+  blog,
 };
