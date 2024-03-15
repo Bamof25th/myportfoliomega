@@ -10,7 +10,7 @@ import Works from "./components/Works";
 import StarsCanvas from "./components/canvas/Stars";
 import Socials from "./components/Social";
 import FooterComp from "./components/Footer";
-import ContactMe from "./components/ContactMe";
+// import ContactMe from "./components/ContactMe";
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <ContactMe />
+        {/* <ContactMe /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

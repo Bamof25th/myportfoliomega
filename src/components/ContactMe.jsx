@@ -1,22 +1,55 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { textVariant } from "../utils/motion";
-import { motion } from 'framer-motion';
-
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { picture_me } from "../assets";
 const ContactMe = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px] ">
       <div
-        className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
+        className={`${styles.padding} bg-hero-pattern bg-cover rounded-2xl min-h-[600px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.heroSubText}>Contact Card</p>
           <h2 className={styles.sectionHeadText}>Me.</h2>
         </motion.div>
+        <div className="w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
+          <div className={` w-full max-h-[300px]  pb-14 flex  gap-7 `}>
+            <div className=" p-4 rounded-full flex  relative">
+              <img
+                className="max-h-96 cursor-pointer  rounded-full "
+                src={picture_me}
+                alt="aniket's pic "
+              />
+            </div>
+            <div className="w-full h-96 flex flex-col mx-auto">
+              <h1 className=" text-blue-300  mx-auto pr-24 text-7xl font-semibold">
+                Aniket Baghel
+              </h1>
+              <br />
+              <p className="p-9 justify-normal content-center font-mono text-lg ">
+                👋 Hi there! I’m Aniket, a passionate developer based in New
+                Delhi, India. I am always eager to learn and work on new
+                technologies. Feel free to reach out if you have any project or
+                just want to I love building things that make an impact
+              </p>
+            </div>
+          </div>
+          <div className=" pl-20 flex flex-row gap-7 justify-center items-center ">
+            <p>
+              Mobile Number :
+              <span className="cursor-pointer"> +91 - 7974415736</span>
+            </p>
+            <p>
+              Email :{" "}
+              <a className="cursor-pointer hover:underline hover:text-blue-500">
+                baghelab1312@gmail.com
+              </a>{" "}
+            </p>
+          </div>
+        </div>
       </div>
-      <div
-        className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 `}
-      ></div>
     </div>
   );
 };

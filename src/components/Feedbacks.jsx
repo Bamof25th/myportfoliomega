@@ -35,7 +35,17 @@ import {  textVariant } from '../utils/motion'
 // )
 
 const Feedbacks = () => {
- 
+ return (
+// {/* {testimonials.map((testimonial , index )=>(
+//                   <FeedbackCard
+//                   key={testimonial.name}
+//                   index={index}
+//                   {...testimonial}
+//                   /> */}
+
+//                 {/* ) )} */}
+ )
+
 }
 
 export default SectionWrapper(Feedbacks , "");
@@ -44,11 +54,3 @@ export default SectionWrapper(Feedbacks , "");
 
 
 
-{/* {testimonials.map((testimonial , index )=>(
-                  <FeedbackCard
-                  key={testimonial.name}
-                  index={index}
-                  {...testimonial}
-                  /> */}
-
-                {/* ) )} */}
