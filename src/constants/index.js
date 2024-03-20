@@ -201,6 +201,7 @@ const projects = [
     ],
     image: filmpire,
     source_code_link: "https://github.com/Bamof25th/FilmPire",
+    visit_link: "https://filmpire-bam.netlify.app/",
   },
   {
     name: "WeatherGO",
@@ -222,6 +223,7 @@ const projects = [
     ],
     image: weatherapp,
     source_code_link: "https://github.com/Bamof25th/WeatherReportApp",
+    visit_link: "https://delightfulweathergoapp.netlify.app/",
   },
   {
     name: "Vibely",
@@ -247,6 +249,7 @@ const projects = [
     ],
     image: chat,
     source_code_link: "https://github.com/Bamof25th/mern-chat-app",
+    visit_link: "https://vibely-chat-app.onrender.com/",
   },
   {
     name: "Bam-Blog",
@@ -272,6 +275,7 @@ const projects = [
     ],
     image: blog,
     source_code_link: "https://github.com/Bamof25th/BlogApp",
+    visit_link: "https://bam-blog-app.onrender.com/",
   },
   {
     name: "Refokus-Clone",
@@ -297,6 +301,7 @@ const projects = [
     ],
     image: refokus,
     source_code_link: "https://github.com/Bamof25th/refokus-clone",
+    visit_link: "https://refokus-clone-mu.vercel.app/",
   },
   {
     name: "Easily",
@@ -318,6 +323,7 @@ const projects = [
     ],
     image: easily,
     source_code_link: "https://github.com/Bamof25th/easily",
+    visit_link: "https://easily-3mnk.onrender.com/",
   },
 ];
 

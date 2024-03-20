@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { picture_me } from "../assets";
 const ContactMe = () => {
   return (
-    <div className="mt-12 bg-black-100 rounded-[20px] ">
+    <div className="mt-12 bg-black-100 rounded-[20px]">
       <div
         className={`${styles.padding} bg-hero-pattern bg-cover rounded-2xl min-h-[600px]`}
       >
@@ -14,23 +14,23 @@ const ContactMe = () => {
           <p className={styles.heroSubText}>Contact Card</p>
           <h2 className={styles.sectionHeadText}>Me.</h2>
         </motion.div>
-        <div className="w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
+        <div className="w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
           <div className={` w-full max-h-[300px]  pb-14 flex  gap-7 `}>
-            <div className=" p-4 rounded-full flex  relative">
+            <div className=" p-4 rounded-full   relative hidden sm:flex">
               <img
-                className="max-h-96 cursor-pointer  rounded-full "
+                className="h-[40vh] cursor-pointer  rounded-full "
                 src={picture_me}
                 alt="aniket's pic "
               />
             </div>
             <div className="w-full h-96 flex flex-col mx-auto">
-              <h1 className=" text-blue-300  mx-auto pr-24 text-7xl font-semibold">
+              <h1 className=" text-blue-300  mx-auto pr-24 text-6xl xs:text-[8vw] font-semibold ">
                 Aniket Baghel
               </h1>
               <br />
-              <p className="p-9 justify-normal content-center font-mono text-lg ">
-                👋 Hi there! I’m Aniket, a passionate developer based in New
-                Delhi, India. I am always eager to learn and work on new
+              <p className="justify-center sm:mt-5  xs:mt-[-20px] content-center font-mono text-lg sm:line-clamp-6">
+                👋 Hi there! I’m Aniket, a passionate developer based in 
+                Chattisgarh, India. I am always eager to learn and work on new
                 technologies. Feel free to reach out if you have any project or
                 just want to I love building things that make an impact
               </p>

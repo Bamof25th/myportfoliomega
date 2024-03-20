@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { FaLink } from "react-icons/fa";
 
 const ProjectCard = ({
   index,
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  visit_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,16 +35,22 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute flex inset-0 justify-end m-3 card-img_hover">
+          <div className="absolute flex inset-0 justify-end m-3 card-img_hover gap-1">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="flex black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer"
+              className="flex black-gradient w-10 h-10 rounded-full  justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />
+            </div>
+            <div
+              onClick={() => window.open(visit_link, "_blank")}
+              className="flex black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer"
+            >
+              <FaLink/>
             </div>
           </div>
         </div>
