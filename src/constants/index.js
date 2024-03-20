@@ -19,7 +19,9 @@ import {
   weatherapp,
   chat,
   threejs,
-  blog
+  blog,
+  refokus,
+  easily,
 } from "../assets/";
 
 export const navLinks = [
@@ -249,7 +251,7 @@ const projects = [
   {
     name: "Bam-Blog",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The application allows users to register, create, edit, and delete blog posts, as well as comment on posts. The goal of this project is to provide a seamless and intuitive platform for both bloggers and readers to engage with content.",
     tags: [
       {
         name: "MERN",
@@ -269,7 +271,53 @@ const projects = [
       },
     ],
     image: blog,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bamof25th/BlogApp",
+  },
+  {
+    name: "Refokus-Clone",
+    description:
+      " The project aims to replicate design, and functionalities of the original Refokus website while incorporating additional features and enhancements for an improved user experience.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FramerMotion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Locomotive",
+        color: "text-indigo-500",
+      },
+    ],
+    image: refokus,
+    source_code_link: "https://github.com/Bamof25th/refokus-clone",
+  },
+  {
+    name: "Easily",
+    description:
+      " The project aims to replicate design, and functionalities of the original Refokus website while incorporating additional features and enhancements for an improved user experience.",
+    tags: [
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: easily,
+    source_code_link: "https://github.com/Bamof25th/easily",
   },
 ];
 

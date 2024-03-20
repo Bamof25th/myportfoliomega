@@ -31,6 +31,9 @@ import chat from "./chat.png";
 import weatherapp from "./weatherapp.png";
 import blog from "./blog.gif";
 import picture_me from "./picture_me.jpg";
+import refokus from "./refkous.png";
+import easily from "./easily.png";
+
 
 export {
   logo,
@@ -63,4 +66,6 @@ export {
   chat,
   blog,
   picture_me,
+  refokus,
+  easily
 };
